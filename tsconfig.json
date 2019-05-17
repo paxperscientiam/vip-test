@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "baseUrl": "."
+  },
+  "files": [
+    "test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "platforms"
+  ]
+}
